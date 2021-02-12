@@ -34,8 +34,9 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
 						<!-- Deploy User Parameter -->
-						<username>fattouh-tt</username>
-						<password>Ma@092020</password>
+<!-- 						<username>fattouh-tt</username> -->
+<!-- 						<password>Ma@092020</password> -->
+						<server>my.anypoint.credentials</server>
 						<!-- Environment Parameter -->
 						<environment>Sandbox</environment>
 						<applicationName>accounts-api-bf</applicationName>

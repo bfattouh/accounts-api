@@ -41,6 +41,7 @@
 						<applicationName>accounts-api-bf</applicationName>
 						<businessGroup>Fattouh-Training</businessGroup>
 						<workerType>MICRO</workerType>
+						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>

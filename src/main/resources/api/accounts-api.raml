@@ -1,0 +1,27 @@
+#%RAML 1.0
+title: Accounts API
+types:
+  Account:
+    properties:
+      accountId:
+        example: bfattouh@mulesoft.com
+        type: string
+        pattern: "[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}"
+      firstName:
+        example: Dino
+        type: string
+      lastName:
+        example: Zoff
+        type: string
+      phone:
+        example: 344-123-1234
+        type: string
+        
+/accounts:
+  get:
+    responses:
+      "200":
+        body:
+          application/json:
+            items:
+              type: Account

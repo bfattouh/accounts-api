@@ -37,7 +37,7 @@
 						<username>fattouh-tt</username>
 						<password>Ma@092020</password>
 						<!-- Environment Parameter -->
-						<environment>SANDBOX</environment>
+						<environment>Sandbox</environment>
 						<applicationName>accounts-api-bf</applicationName>
 						<businessGroup>Fattouh-Training</businessGroup>
 						<workerType>MICRO</workerType>
